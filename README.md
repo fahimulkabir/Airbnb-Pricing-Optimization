@@ -17,7 +17,7 @@ Steps:
 - Exploratory Data Analysis (EDA)
 
 Structure:
-'''
+```
 AirbnbDynamicPricing/
 ├── data/
 │   ├── listings.csv
@@ -36,4 +36,4 @@ AirbnbDynamicPricing/
 │   ├── price_model.pkl
 ├── requirements.txt
 ├── README.md
-'''
+```
