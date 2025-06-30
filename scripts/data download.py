@@ -25,11 +25,11 @@ def download_and_extract(url, output_folder):
     print(f"Saved extracted file to {csv_path}")
 
 # Example for NYC
-os.makedirs("/Users/fahimulkabir/Github/Airbnb Pricing Optimization/data/raw/New York/New York City", exist_ok=True)
+os.makedirs("/Users/fahimulkabir/Github/Airbnb-Pricing-Optimization/data/raw/New York/New York City", exist_ok=True)
 urls = [
     "https://data.insideairbnb.com/united-states/ny/new-york-city/2025-05-01/data/listings.csv.gz",
     "https://data.insideairbnb.com/united-states/ny/new-york-city/2025-05-01/data/calendar.csv.gz"
 ]
 
 for url in urls:
-    download_and_extract(url, "/Users/fahimulkabir/Github/Airbnb Pricing Optimization/data/raw/New York/New York City")
+    download_and_extract(url, "/Users/fahimulkabir/Github/Airbnb-Pricing-Optimization/data/raw/New York/New York City")
